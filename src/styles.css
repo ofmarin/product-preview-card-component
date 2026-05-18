@@ -8,17 +8,23 @@
   --green-500:#3D8168;
   --green-700:#1A4032;
 
-  --fraun-bold: 700 32px "Fraunces", serif;
-  --mont-bold:  700 14px "Montserrat", serif;
-  --mont-medium: 500 14px  "Montserrat", serif;
-  --spaced-medium-montt: 500 12px  "Montserrat",serif;
+  --fraun-bold: normal 700 32px "Fraunces", serif;
+  --mont-bold:  normal 700 14px "Montserrat", serif;
+  --mont-medium: normal 500 14px  "Montserrat", serif;
+  --spaced-medium-montt: normal 500 12px  "Montserrat",serif;
   --mont-spacing: 5px;
-  --mont-medium-2: 500 12px  "Montserrat",serif;
+  --mont-medium-2:normal 500 12px  "Montserrat",serif;
+}
+*{
+  margin:0;
+  padding:0;
 }
 
 body{
-  background: var(--cream);
-
+  box-sizing: border-box;
+  padding: 80px 12px;
+  min-height: 100dvh;
+  background-color:var(--cream);
 }
 
 
@@ -34,6 +40,14 @@ body{
   src:url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
   font-style: normal;
   font-weight: 100 900;
+}
+
+app-root{
+  display:block;
+  width: 100%;
+  min-height:100%;
+
+
 }
 
 

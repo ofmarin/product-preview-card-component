@@ -1,2 +1,19 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+app-card{
+  background-color: var(--white);
+
+  box-sizing: border-box;
+  width:100%;
+}
+main{
+  box-sizing: border-box;
+}
+
+div{
+  box-sizing: border-box;
+}
+

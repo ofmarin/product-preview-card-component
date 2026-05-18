@@ -7,5 +7,8 @@ import { Cart } from '../cart/cart'
   templateUrl: './card.html',
   styleUrls: ['./card.css'],
 })
-export class Card {}
+export class Card {
+
+   mainImg = "/images/image-product-mobile.jpg"
+}
 
