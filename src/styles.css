@@ -7,10 +7,33 @@
   --grey:#6C7289;
   --green-500:#3D8168;
   --green-700:#1A4032;
+
+  --fraun-bold: 700 32px "Fraunces", serif;
+  --mont-bold:  700 14px "Montserrat", serif;
+  --mont-medium: 500 14px  "Montserrat", serif;
+  --spaced-medium-montt: 500 12px  "Montserrat",serif;
+  --mont-spacing: 5px;
+  --mont-medium-2: 500 12px  "Montserrat",serif;
 }
 
 body{
   background: var(--cream);
 
 }
+
+
+@font-face{
+  font-family:"Fraunces";
+  src:url("/fonts/Fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+
+}
+@font-face{
+  font-family:"Montserrat";
+  src:url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 900;
+}
+
 
