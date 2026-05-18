@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+  --cream:#F2EAE2;
+  --black:#1C232B;
+  --white:#FFFFFF;
+  --grey:#6C7289;
+  --green-500:#3D8168;
+  --green-700:#1A4032;
+}
+
+body{
+  background: var(--cream);
+}
