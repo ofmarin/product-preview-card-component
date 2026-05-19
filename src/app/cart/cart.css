@@ -1,0 +1,23 @@
+button{
+  padding: 16px 32px;
+  background-color: var(--green-500);
+  color:var(--white);
+  width: 100%;
+  display: flex;
+  gap:8px;
+  border:none;
+  border-radius:8px;
+  justify-content: center;
+  align-items: center;
+}
+
+button svg{
+  fill:var(--white);
+  stroke:var(--white);
+}
+
+button span{
+  font:var(--mont-bold);
+}
+
+

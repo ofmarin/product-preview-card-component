@@ -8,12 +8,12 @@
   --green-500:#3D8168;
   --green-700:#1A4032;
 
-  --fraun-bold: normal 700 32px "Fraunces", serif;
-  --mont-bold:  normal 700 14px "Montserrat", serif;
-  --mont-medium: normal 500 14px  "Montserrat", serif;
-  --spaced-medium-montt: normal 500 12px  "Montserrat",serif;
+  --fraun-bold: normal 700 32px/1 "Fraunces", serif;
+  --mont-bold:  normal 700 14px/1.1 "Montserrat", serif;
+  --mont-medium: normal 500 14px/1.6  "Montserrat", serif;
+  --spaced-medium-montt: normal 500 12px/1.2  "Montserrat",serif;
   --mont-spacing: 5px;
-  --mont-medium-2:normal 500 12px  "Montserrat",serif;
+  --mont-medium-2:normal 500 12px/1.2  "Montserrat",serif;
 }
 *{
   margin:0;
