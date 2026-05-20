@@ -20,4 +20,8 @@ button span{
   font:var(--mont-bold);
 }
 
+button:hover{
+  background-color: var(--green-700);
+  cursor:pointer;
+}
 

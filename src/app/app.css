@@ -8,12 +8,22 @@ app-card{
 
   box-sizing: border-box;
   width:100%;
+
 }
 main{
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div{
   box-sizing: border-box;
 }
 
+@media(min-width:750px){
+  app-card{
+    width:600px;
+    border-radius:8px;
+  }
+}

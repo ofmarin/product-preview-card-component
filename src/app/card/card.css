@@ -12,18 +12,17 @@
 
 div{
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  */
+
   background-color: var(--white);
   border-radius:8px;
-
 }
 
-figure{
-
-}
 
 figure img{
   border-top-left-radius: 8px;
@@ -61,8 +60,9 @@ h1{
 
 #price{
   box-sizing: border-box;
-
+  width:100%;
 }
+
 #price p{
   display: flex;
   gap:16px;
@@ -85,6 +85,41 @@ app-cart{
 
 #button{
   width: 100%;
-
-
 }
+
+app-cart{
+  width: 100%;
+}
+
+@media(min-width:750px){
+
+  div{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  figure{
+
+  }
+
+  figure img{
+    height:100%;
+    width:100%;
+    object-fit: fill;
+  }
+
+  #content, figure{
+    width: 50%;
+  }
+  #content{
+    box-sizing: border-box;
+    width:300px;
+  }
+
+  figure img{
+    width:300px;
+  }
+}
+
+

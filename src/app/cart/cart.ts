@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-cart',
   imports: [],
   templateUrl: './cart.html',
-  styleUrl: './cart.css',
+  styleUrls: ['./cart.css'],
 })
 export class Cart {
 
-  icon = "/images/icon-cart.svg"
+  icon = "images/icon-cart.svg"
 }
